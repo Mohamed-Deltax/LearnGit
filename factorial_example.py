@@ -7,6 +7,7 @@ def factorial(n):
 
     import math
     # I added this
+    # second change
     if not n >= 0:
         raise ValueError("n must be >= 0")
     if math.floor(n) != n:
